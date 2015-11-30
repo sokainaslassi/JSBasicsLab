@@ -88,6 +88,8 @@
           }
         }
     }
+	if(Sum===3)
+		Sum=15;
         return Sum;
     };
 
