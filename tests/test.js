@@ -29,7 +29,7 @@
         equal(JS_BASICS.longestString(['Holà','\u265E','你好']),'Holà','utf-8...');
         equal(JS_BASICS.longestString(['Holà','\u265E','你好']),'Holà','utf-8...');
         equal(JS_BASICS.longestString([true,false,'lol']),'lol','various types');
-        equal(JS_BASICS.longestString([{object: true,mainly: 'to confuse you'},'x']),'lol','various types');
+        equal(JS_BASICS.longestString([{object: true,mainly: 'to confuse you'},'x']),'x','various types');
     });
 
     test('test reverseString', function() {

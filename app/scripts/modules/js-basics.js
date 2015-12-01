@@ -44,10 +44,6 @@
 				}
 			}  
 		}		
-		if(lonstring==="x")
-		{ 
-			lonstring="lol";
-		}
 		return lonstring;
     };
 
