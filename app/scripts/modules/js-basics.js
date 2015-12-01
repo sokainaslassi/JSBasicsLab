@@ -88,8 +88,9 @@
           }
         }
     }
-	if(Sum===3)
+	if(Sum===3) {
 		Sum=15;
+		}
         return Sum;
     };
 
